@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = lun 22 déc 2014 21:24:17 CET
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = lun 22 déc 2014 21:36:15 CET
 
 BeginCmp
 TimeStamp = /545D19AB;
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /545CEFAF;
 Reference = U3;
 ValeurCmp = LEA-M8F;
-IdModule  = lea-m8f:SC70;
+IdModule  = lea-m8f:LEA;
 EndCmp
 
 BeginCmp
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /545D073E;
 Reference = U5;
 ValeurCmp = NC7SZ125;
-IdModule  = ;
+IdModule  = lea-m8f:SC70;
 EndCmp
 
 BeginCmp
