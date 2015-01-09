@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = lun 22 déc 2014 21:36:15 CET
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = ven 09 jan 2015 17:01:45 CET
 
 BeginCmp
 TimeStamp = /545D19AB;
@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /545D17AF;
 Reference = J2;
 ValeurCmp = DB9;
-IdModule  = ;
+IdModule  = Connect:DB9FD;
 EndCmp
 
 BeginCmp
@@ -141,17 +141,10 @@ IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /549886F0;
-Reference = U1;
-ValeurCmp = B200_GPSDO;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /545D1974;
 Reference = U2;
 ValeurCmp = MAX232;
-IdModule  = lea-m8f:LEA;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
@@ -187,6 +180,13 @@ TimeStamp = /5498AFC5;
 Reference = U7;
 ValeurCmp = LT1962;
 IdModule  = lea-m8f:MS8;
+EndCmp
+
+BeginCmp
+TimeStamp = /549886F0;
+Reference = U100;
+ValeurCmp = B200_GPSDO;
+IdModule  = lea-m8f:GPSDO_B200;
 EndCmp
 
 EndListe
