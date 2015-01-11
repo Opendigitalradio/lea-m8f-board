@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/bram/dab/lea-m8f/lea-m8f.sch)
-    (date "sam 10 jan 2015 09:03:14 CET")
-    (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
+    (date "dim 11 jan 2015 18:47:31 CET")
+    (tool "Eeschema (2015-01-10 BZR 5363)-product"))
   (components
     (comp (ref U3)
       (value LEA-M8F)
