@@ -1,50 +1,22 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = ven 09 jan 2015 17:01:45 CET
+Cmp-Mod V01 Created by Cvpcb (2015-01-10 BZR 5363)-product   date = ven 23 jan 2015 14:21:29 CET
 
 BeginCmp
-TimeStamp = /545D19AB;
+TimeStamp = /54C2676B;
 Reference = C1;
-ValeurCmp = 1uF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /545D19D2;
-Reference = C2;
-ValeurCmp = 1uF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /545D1A07;
-Reference = C3;
-ValeurCmp = 1uF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /545D42AE;
-Reference = C4;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5498BCEF;
-Reference = C5;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5498BF10;
-Reference = C6;
+TimeStamp = /54C26777;
+Reference = C2;
 ValeurCmp = 10nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5498B8D8;
-Reference = C7;
+TimeStamp = /54C26751;
+Reference = C3;
 ValeurCmp = 1uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
@@ -57,6 +29,41 @@ IdModule  = Connect:USB_Micro-B;
 EndCmp
 
 BeginCmp
+TimeStamp = /54C27C57;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C31E92;
+Reference = D2;
+ValeurCmp = PPS;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C2FBAF;
+Reference = D3;
+ValeurCmp = VDD;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C273BB;
+Reference = D4;
+ValeurCmp = DIODESCH;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C2BB3A;
+Reference = D5;
+ValeurCmp = VUSB;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /545CF86E;
 Reference = J1;
 ValeurCmp = RF_IN;
@@ -64,23 +71,16 @@ IdModule  = lea-m8f:SMA_SIDE;
 EndCmp
 
 BeginCmp
-TimeStamp = /545D17AF;
-Reference = J2;
-ValeurCmp = DB9;
-IdModule  = Connect:DB9FD;
-EndCmp
-
-BeginCmp
 TimeStamp = /545CF9D0;
 Reference = J3;
-ValeurCmp = PPS Out;
+ValeurCmp = PPS;
 IdModule  = lea-m8f:SMA_SIDE;
 EndCmp
 
 BeginCmp
 TimeStamp = /545CF973;
 Reference = J4;
-ValeurCmp = 30.72MHz Out;
+ValeurCmp = 30.72;
 IdModule  = lea-m8f:SMA_SIDE;
 EndCmp
 
@@ -95,56 +95,98 @@ BeginCmp
 TimeStamp = /54989F6E;
 Reference = R1;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498993B;
 Reference = R2;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54989489;
 Reference = R3;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54989503;
 Reference = R4;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /549899C6;
 Reference = R5;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /549865E2;
 Reference = R6;
 ValeurCmp = 27;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498663D;
 Reference = R7;
 ValeurCmp = 27;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /545D1974;
+TimeStamp = /54C3B834;
+Reference = R8;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C37D1A;
+Reference = R9;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C31E98;
+Reference = R10;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C2FBB5;
+Reference = R11;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C2BB40;
+Reference = R12;
+ValeurCmp = 510;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C305F6;
+Reference = U1;
+ValeurCmp = NC7SZ125;
+IdModule  = lea-m8f:SC70;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C26747;
 Reference = U2;
-ValeurCmp = MAX232;
-IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+ValeurCmp = LT1962;
+IdModule  = lea-m8f:MS8;
 EndCmp
 
 BeginCmp
@@ -173,13 +215,6 @@ TimeStamp = /54986A94;
 Reference = U6;
 ValeurCmp = USB6B1;
 IdModule  = lea-m8f:SO-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /5498AFC5;
-Reference = U7;
-ValeurCmp = LT1962;
-IdModule  = lea-m8f:MS8;
 EndCmp
 
 BeginCmp
