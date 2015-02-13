@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-10 BZR 5363)-product   date = ven 23 jan 2015 14:21:29 CET
+Cmp-Mod V01 Created by Cvpcb (2015-01-10 BZR 5363)-product   date = ven 13 fév 2015 12:16:25 CET
 
 BeginCmp
 TimeStamp = /54C2676B;
@@ -22,6 +22,13 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /54DDF6BB;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /545CEFFD;
 Reference = CON1;
 ValeurCmp = USB-MICRO-B;
@@ -32,35 +39,35 @@ BeginCmp
 TimeStamp = /54C27C57;
 Reference = D1;
 ValeurCmp = DIODESCH;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C31E92;
 Reference = D2;
 ValeurCmp = PPS;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C2FBAF;
 Reference = D3;
 ValeurCmp = VDD;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C273BB;
 Reference = D4;
 ValeurCmp = DIODESCH;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C2BB3A;
 Reference = D5;
 ValeurCmp = VUSB;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -92,9 +99,16 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
 EndCmp
 
 BeginCmp
+TimeStamp = /54DE127F;
+Reference = P2;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
 TimeStamp = /54989F6E;
 Reference = R1;
-ValeurCmp = 0;
+ValeurCmp = DNF;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -122,7 +136,7 @@ EndCmp
 BeginCmp
 TimeStamp = /549899C6;
 Reference = R5;
-ValeurCmp = 0;
+ValeurCmp = DNF;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -143,14 +157,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54C3B834;
 Reference = R8;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C37D1A;
-Reference = R9;
-ValeurCmp = 0;
+ValeurCmp = DNF;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
