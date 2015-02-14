@@ -3,3 +3,6 @@ GPSDO that uses the u-blox LEA-M8F module.
 
 It requires a modified UHD, because the reference clock output of the LEA-M8F is
 30.72MHz.
+
+This design is published under a Creative Commons CC-BY-SA licence, see
+LICENCE.txt for details.
