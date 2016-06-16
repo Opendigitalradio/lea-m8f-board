@@ -443,7 +443,7 @@ L LT1962 U2
 U 1 1 54C26747
 P 5450 6750
 F 0 "U2" H 5450 6450 60  0000 C CNN
-F 1 "LT1962" H 5450 7050 60  0000 C CNN
+F 1 "LT1962-3V3" H 5450 7050 60  0000 C CNN
 F 2 "lea-m8f:MS8" H 5400 6700 60  0001 C CNN
 F 3 "" H 5400 6700 60  0000 C CNN
 	1    5450 6750
@@ -1026,4 +1026,10 @@ $EndComp
 Wire Wire Line
 	9350 3850 9350 4050
 Connection ~ 9350 4050
+Text Notes 8000 5550 0    60   ~ 0
+Configure LEA-M8F to 115200baud
+Text Notes 1950 5950 0    60   ~ 0
+Use Schottky diodes for low forward voltage drop
+Text Notes 3100 1300 0    60   ~ 0
+Do not fit 0Ohm resistors\non parts marked DNF
 $EndSCHEMATC
